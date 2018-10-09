@@ -137,6 +137,7 @@ export default class ADLoginView extends React.Component {
              
       if(this._needRedirect)
         result = `https://login.windows.net/${this.props.context.getConfig().client_id}/oauth2/logout`
+      console.log('ADLoginView loginURL', result);
       return result
     }
     else {
