@@ -6,8 +6,8 @@ import ReactNativeAD from './ReactNativeAD.js'
 import Timer from 'react-timer-mixin'
 import log from './logger'
 
-const loginUrl = 'https://login.microsoftonline.com/<tenant id>/oauth2/authorize'
-const tokenUrl = 'https://login.microsoftonline.com/common/oauth2/token'
+const loginUrl = 'https://6tawapp.b2clogin.com/6tawapp.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1_publicsignin'
+const tokenUrl = 'https://6tawapp.b2clogin.com/6tawapp.onmicrosoft.com/oauth2/v2.0/token?p=b2c_1_publicsignin'
 
 export default class ADLoginView extends React.Component {
 
